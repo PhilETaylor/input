@@ -37,7 +37,7 @@ use Joomla\Filter;
  * @method      string   getHtml($name, $default = null)      Get a HTML string.
  * @method      string   getPath($name, $default = null)      Get a file path.
  * @method      string   getUsername($name, $default = null)  Get a username.
- * @method      mixed    getRaw($name, $default = null)       Get an unfiltered value.
+ * @method      mixed    getRaw($name = null, $default = null)       Get an unfiltered value.
  */
 class Input implements \Countable
 {
